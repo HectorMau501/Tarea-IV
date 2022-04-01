@@ -14,7 +14,9 @@ int main() {
     Canva c;
     int option = 0;
 
-    std::cout << "Que quieres imprimir?" << std::endl;
+
+    std::cout << "Hector Mauricio Rodriguez Salazar" << std::endl;
+    std::cout << "Bienvenido" << std::endl;
     std::cin >> option;
 
 

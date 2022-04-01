@@ -1,4 +1,15 @@
-﻿  SimplePOO.cpp
-  Square.cpp
+﻿  Menu.cpp
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(20,16): error C2374: 's': nueva definición; inicialización múltiple
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(16): message : vea la declaración de 's'
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(21,15): error C2086: 'Canva c': nueva definición
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(17): message : vea la declaración de 'c'
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(22,13): error C2374: 'option': nueva definición; inicialización múltiple
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(18): message : vea la declaración de 'option'
+  SimplePOO.cpp
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(20,16): error C2374: 's': nueva definición; inicialización múltiple
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(16): message : vea la declaración de 's'
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(21,15): error C2086: 'Canva c': nueva definición
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(17): message : vea la declaración de 'c'
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(22,13): error C2374: 'option': nueva definición; inicialización múltiple
+C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\Menu.h(18): message : vea la declaración de 'option'
   Generando código...
-  SimplePOO.vcxproj -> C:\Users\Héctor Mauricio\OneDrive\Documentos\Ceti\Semestre 2\Programacion Orientada a Objetos\Parcial II de POO\Tarea IV_HectorRS_21310416\SimplePOO\x64\Debug\SimplePOO.exe

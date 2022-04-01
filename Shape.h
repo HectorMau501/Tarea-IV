@@ -11,5 +11,4 @@ protected:
 public:
     int variablePublica = 10;
     virtual void draw() {}
-
 };

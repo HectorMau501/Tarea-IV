@@ -2,38 +2,31 @@
 //
 
 #include <iostream>
-#include "Triangle.h"
+#include "Shape.h"
 #include "Square.h"
+#include "SquareHole.h"
+#include "Triangle.h"
+#include "TrianEqui.h"
 #include "Rectangle.h"
 #include "Canva.h"
+#include "Menu.h"
+
 
 
 int main() {
 
-    Shape* s = nullptr;
-    Canva c;
-    int option = 0;
-
+    Menu* m = nullptr;
+      Canva c;
 
     std::cout << "Hector Mauricio Rodriguez Salazar" << std::endl;
     std::cout << "Bienvenido" << std::endl;
-    std::cin >> option;
 
 
-    if (option == 1) {
-        s = new Square();
+    if (m!= nullptr)
+    {
+        c.printShape(m);
+        delete m;
     }
-       
-    else if (option == 2) {
-        s = new Triangle();
-    }
-   /* else if (option == 3)
-        s = new Rectangle();*/
-        if (s != nullptr)
-        {
-            c.printShape(s);
-            delete s;
-        }
 
     std::cout << "---------------------------------" << std::endl;
 

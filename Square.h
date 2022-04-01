@@ -14,15 +14,15 @@ public:
         std::cout << "Se destruye cuadrado" << std::endl;
     }
 
-    void draw() {
+    void draw()
+    {
         for (int i = 0; i < this->lado; i++)
         {
 
-            for (int j = 0; j < this->lado; j++) 
-            {
+            for (int i = 0; i < this->lado; i++) 
                     std::cout << " * ";
-                    std::cout << ""<<std::endl;
-            }
+                    std::cout << "  " <<std::endl;
+            
         }
     }
 };

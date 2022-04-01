@@ -15,12 +15,22 @@
 
 int main() {
 
+    //Menu a;
+
+    //a.
+
+
     Menu* m = nullptr;
-      Canva c;
+    Canva c;
+     
 
-    std::cout << "Hector Mauricio Rodriguez Salazar" << std::endl;
-    std::cout << "Bienvenido" << std::endl;
+    std::cout << "\t\tHector Mauricio Rodriguez Salazar" << std::endl;
+    std::cout << "\t\tBienvenido" << std::endl;
+    std::cout << "\t\tPrograma con el tema de Polimorfismo" << std::endl;
 
+    
+    m->imprimirMenu();
+    m->mostrarMenu();
 
     if (m!= nullptr)
     {

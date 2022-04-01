@@ -33,9 +33,6 @@
     <ClCompile Include="Canva.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="TrianEqui.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>

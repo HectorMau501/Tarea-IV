@@ -13,13 +13,12 @@ class Menu : public Shape {
     public:
         void imprimirMenu() {
 
-
+            std::cout << "\t-----------Menu-----------" << std::endl;
+            std::cout << "\tUsted debera escoger una de las siguientes opciones a escoger" << std::endl;
+            std::cout << "1.Dibujar un Cuadrado" << std::endl;
+            std::cout << "2.Dibujar un Tringulo" << std::endl;
+            std::cout << "3.Dibujar un Rectangulo" << std::endl;
         }
-
-
-
-
-
 
         void mostrarMenu() {
         
@@ -27,24 +26,22 @@ class Menu : public Shape {
             Canva c;
             int option = 0;
 
-
-        std::cout << "Hector Mauricio Rodriguez Salazar" << std::endl;
-        std::cout << "Bienvenido" << std::endl;
+        std::cout << "Que quieres imprimir?" << std::endl;
         std::cin >> option;
 
-
-        if (option == 1) {
+        if (option == 1)
+        {
             s = new Square();
         }
-
-        else if (option == 2) {
+        else if (option == 2) 
+        {
             s = new Triangle();
         }
         /*else if (option == 3)
             s = new Rectangle();*/
-        else if (option == 4)
+        else if (option == 4) {
             s = new TrianEqui();
-
+        }
         if (s != nullptr)
         {
             c.printShape(s);
